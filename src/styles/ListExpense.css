@@ -37,6 +37,14 @@
     padding-left: 50px;
 }
 
+.expense-item{
+    display: flex;
+}
+
+.expense-date{
+    margin-right: 100px;
+}
+
 .delete-button{
     background-color: #E3FEF7;
     height: 25px;

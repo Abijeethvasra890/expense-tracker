@@ -80,13 +80,15 @@ const ListExpense = ({ expenseList, setExpenseList }) => {
                             {groupedExpenses[monthYear].map((expense) => (
                                 <div className='list' key={expense.id}>
                                 <li className='expense-card'>
-                                    <div>
-                                        {expense.date} {expense.title}
+                                    <div className='expense-item'>
+                                        <div className='expense-date'>{expense.date}</div>
+                                        <div>{expense.title}</div>
                                     </div>
+                                    <div>Rs. {expense.amount}</div>
                                     <div className='list-right'>
-                                        <div>Rs. {expense.amount}</div>
-                                        <button onClick={() => handleDelete(expense.id)} className='delete-button'>Delete</button>
+                                        
                                         <button onClick={() => openEditModal(expense)} className='delete-button'>Edit</button>
+                                        <button onClick={() => handleDelete(expense.id)} className='delete-button'>Delete</button>
                                     </div>
                                 </li>
                                 </div>
