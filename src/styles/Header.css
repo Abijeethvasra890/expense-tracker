@@ -1,0 +1,10 @@
+.header{
+    background-color: #003C43;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:larger;
+    font-style: italic;
+    padding-top: 10px;
+}

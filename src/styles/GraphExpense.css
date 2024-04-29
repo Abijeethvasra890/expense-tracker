@@ -1,0 +1,21 @@
+.graph-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #77B0AA;
+    padding: 20px; /* Adjust padding as needed */
+    height: 200px;
+    margin-top: -10px;
+}
+
+.graph-header{
+    background-color: #77B0AA ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:larger;
+    font-style: italic;
+    padding-top: 10px;
+    margin-top: -10px;
+}
